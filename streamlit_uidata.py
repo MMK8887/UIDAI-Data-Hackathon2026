@@ -10,7 +10,7 @@ import google.generativeai as genai
 GEMINI_API_KEY = "AIzaSyCG4lBVIMpimAcFX-sJakPI20vDNvkQy2c"
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-3-flash-preview")
 
 # ==================================================
 # PAGE CONFIG
